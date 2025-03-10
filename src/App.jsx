@@ -102,7 +102,7 @@ function App() {
         </div>
         <div className="sm:hidden bg-gray-800 text-center py-4 text-lg   text-orange-500 font-mono font-extrabold">
           NextUp
-
+        </div>
         {/* gradient-to-br from-gray-800 via-teal-800 to-green-700 */}
         <div className="">
           <div
