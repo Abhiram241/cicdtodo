@@ -1,4 +1,4 @@
 @echo off
 git add .
-git commit -m "made a change in main"
+git commit -m "fix all errors"
 git push
