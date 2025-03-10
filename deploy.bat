@@ -1,4 +1,4 @@
 @echo off
 git add .
-git commit -m "testing deployment"
+git commit -m "ready to deploy an error"
 git push
