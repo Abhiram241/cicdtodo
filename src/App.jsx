@@ -6,7 +6,7 @@ function App() {
   const [todo, setTodo] = useState(""); //you are using a state to capture a string
   const [todos, setTodos] = useState([]); //init an empty array
   const [editId, setEditId] = useState(null); // to edit u will need to fetch its id
-  // const inputRef = useRef(null); // You will use this to highlight the feild
+  const inputRef = useRef(null); // You will use this to highlight the feild
   const [showfinished, setshowfinished] = useState(false);
 
   useEffect(() => {
