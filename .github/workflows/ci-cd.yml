@@ -56,4 +56,4 @@ jobs:
         run: |
           npx gh-pages -d dist  # Ensure that dist is the correct output directory
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} #change
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} 
