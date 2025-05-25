@@ -1,4 +1,4 @@
 @echo off
 git add .
-git commit -m "fix all errors"
+git commit -m "check 123"
 git push
