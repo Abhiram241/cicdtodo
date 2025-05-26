@@ -166,7 +166,7 @@ function App() {
                   <div className=" text-center text-orange-500">
                     You seem to be lazy!
                   </div>
-                  <div>Start Organzing your work</div>
+                  <div>Start planning</div>
                 </div>
               ) : (
                 todos.map((item) => {
