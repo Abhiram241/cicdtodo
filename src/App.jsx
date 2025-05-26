@@ -1,4 +1,5 @@
-import { useState, useRef, useEffect } from "react";
+import { useEffect, useRef, useState } from "react";
+
 import Navbar from "./Components/Navbar";
 import { v4 as uuidv4 } from "uuid";
 
@@ -165,7 +166,7 @@ function App() {
                   <div className=" text-center text-orange-500">
                     You seem to be lazy!
                   </div>
-                  <div>Please work!</div>
+                  <div>Start Organzing your work</div>
                 </div>
               ) : (
                 todos.map((item) => {
